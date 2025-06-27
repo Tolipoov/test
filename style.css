@@ -1,0 +1,15 @@
+/* Minimum height for all cards */
+.card {
+  min-height: 180px;
+}
+
+/* Responsive styles  */
+@media (max-width: 360px) {
+  .card-title {
+    font-size: 1rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+}
